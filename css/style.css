@@ -1,0 +1,41 @@
+body{
+    background-color: #052bff2f;
+}
+.search-box{
+    width: 450px;
+}
+.search-button{
+    background-color: #e4490d;
+    color: white;
+}
+#recipes{
+    display: none;
+}
+.meal-img{
+    width: 245px;
+    height: 240px;
+}
+.meal-name{
+    text-align: center;
+    padding-top: 10px;
+    background-color: #e4490d;
+    height: 40px;
+    color: white;
+}
+.meal-name:hover{
+    background-color: white;
+    color: #e4490d;
+}
+#singleRecipe{
+    display: none;
+}
+.recipeImg{
+    height: 250px;
+    width: 300px;
+}
+.recipe-name{
+    margin-left: 405px;
+}
+.meal-ingredients{
+    margin-left: 405px;
+}

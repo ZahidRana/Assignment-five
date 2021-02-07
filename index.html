@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- title -->
+    <title>Hungry Monster</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar container navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Hungry Monster</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link active" href="#">Recipes</a>
+                        <a class="nav-link active" href="#">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-5 d-flex justify-content-center">
+            <input id="inputMealName" class="form-control search-box" type="text" placeholder="Search For Meal">
+            <button id="searchBtn" class="search-button btn">Search</button>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <section id="recipes">
+            <div class="meal-recipe d-flex">
+                <div id="mustardRecipe" class="recipe meal-details m-3">
+                    <img id="mustard-img" class="meal-img" src="" alt="">
+                    <h6 id="mustard-champ" class="meal-name"></h6>
+                </div>
+                <div id="coddledRecipe" class="recipe meal-details m-3">
+                    <img id="coddledPork-img" class="meal-img" src="" alt="">
+                    <h6 id="coddledPork" class="meal-name"></h6>
+                </div>
+                <div id="boxtyBreakfastRecipe" class="recipe meal-details m-3">
+                    <img id="boxtyBreakfast-img" class="meal-img" src="" alt="">
+                    <h6 id="boxtyBreakfast" class="meal-name"></h6>
+                </div>
+                <div id="hamHockRecipe" class="recipe meal-details m-3">
+                    <img id="hamHockColcannon-img" class="meal-img" src="" alt="">
+                    <h6 id="hamHockColcannon" class="meal-name"></h6>
+                </div>
+            </div>
+            <div class="meal-recipe d-flex mt-3">
+                <div id="katsudonRecipe" class="recipe meal-details m-3">
+                    <img id="katsudon-img" class="meal-img" src="" alt="">
+                    <h6 id="katsudon" class="meal-name"></h6>
+                </div>
+                <div id="gohanRiceRecipe" class="recipe meal-details m-3">
+                    <img id="gohanRice-img" class="meal-img" src="" alt="">
+                    <h6 id="gohanRice" class="meal-name"></h6>
+                </div>
+                <div id="tonkatsuPorkRecipe" class="recipe meal-details m-3">
+                    <img id="tonkatsuPork-img" class="meal-img" src="" alt="">
+                    <h6 id="tonkatsuPork" class="meal-name"></h6>
+                </div>
+                <div id="egyptianFattehRecipe" class="recipe meal-details m-3">
+                    <img id="egyptianFatteh-img" class="meal-img" src="" alt="">
+                    <h6 id="egyptianFatteh" class="meal-name"></h6>
+                </div>
+            </div>
+        </section>
+        <section id="singleRecipe">
+            <div class="d-flex justify-content-center">
+                <img id="recipe-img" class="recipeImg" src="" alt="">
+            </div>
+            <h3 id="recipeName" class="recipe-name mt-4">Recipe Name</h3>
+            <h5 id="ingredients" class="meal-ingredients mt-4">Ingredients</h5>
+            <ul id="ingredientList" class="meal-ingredients mt-4">
+
+            </ul>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
